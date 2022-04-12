@@ -1,0 +1,56 @@
+body {
+
+
+
+
+    background-image: url("..//marketcap.jpg")
+
+}
+
+h1{
+
+
+     
+    font-size: xx-large;
+    font-family: 'Signika', sans-serif;
+    height: 70px;
+    width: 300px;
+    background-color:white ;
+    border-radius: 20px;
+    border-color: black ;
+    border-style: double;
+    text-align: center;
+    
+    
+}
+
+h2{
+
+
+    background-color: white;
+   border-radius: 10px;
+    background-size: auto;
+    
+    
+    
+}
+
+#grid-area {
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color:orange;
+    height: 600px;
+    gap: 20px;
+    
+}
+p {
+
+
+    background-color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    border-style: double;
+    border-radius: 20px;
+}

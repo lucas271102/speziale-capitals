@@ -1,0 +1,148 @@
+.header  {
+
+
+    background-color:aliceblue;
+    font-size: xx-large;
+    font-family:  'Signika', sans-serif;
+    height: 50px;
+    width: 450px;
+    
+    
+    border: 5px double black; 
+    border-radius: 25px 0  25px 0;
+    text-align: center;
+    grid-area: header;
+}
+.nav{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    grid-area: nav ;
+    height: 75px;
+    font-size: xx-large;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+    border-radius: 15px;
+}
+.principal{
+font-size: xx-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    grid-area: principal;
+    height: 75px;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+
+.aside{
+font-size: xx-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightblue;
+    grid-area: aside;
+    height: 75px;
+    border-style: dotted;
+    border-color: black;
+    text-align: center;
+    border-radius: 15px;
+}
+.footer{
+
+    background-color: fuchsia;
+    grid-area: footer ;
+}
+
+
+   
+
+
+section a {
+
+
+background-color:lightsteelblue;
+   display: flex;
+   border: 5px double black;
+   border-radius: 25px;
+   width: 250px;
+   flex-direction: row;
+}
+body{
+    background-image: url("..//tendencias-negocios.avif")
+    
+    }
+
+body{
+  background-position: center;
+    background-size: 1500px ;
+    
+}
+.grid{
+
+    height: 100vh;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
+    grid-template-rows: 5% 5% 5% ;
+    grid-template-areas:"header header header " 
+                        " nav principal aside " 
+                        "footer footer footer ";
+
+    gap: 20px;
+}
+.flex-item{
+
+    background-color:whitesmoke ;
+    background-size: 300px;
+    width: 500px;
+    display: flex;
+    background-position: center;
+    padding: 1px;
+    border-radius: 10px;
+}
+
+
+
+.flex-container {
+
+
+
+    padding: 10px;
+    display:-moz-grid-line;
+}
+
+.flex-item{
+
+    background-color:white;
+    width: 550px;
+    
+    
+}
+.flex-item img {
+
+    width: 100px;
+}
+
+
+
+    
+
+#grid-item{
+grid-area: header;
+background: lightskyblue;
+
+
+
+
+}
+
+
+.grid-item{
+
+
+
+align-items: center;
+    height: 1000px;
+}
